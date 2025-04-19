@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# Local settings
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.py
+
+# Test coverage
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+.noseids
+
+# JWT blacklist DB
+*.sqlite3
+
+# Pipenv
+Pipfile.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.cache
